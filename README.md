@@ -5,3 +5,6 @@
 <br>
 <br>
 [logical_test_2](https://github.com/Rathapol-Putharaksa/AS2/blob/master/logical_test_2.py)
+<br>
+<br>
+[special_score](https://github.com/Rathapol-Putharaksa/AS2/blob/master/special_score.py)
