@@ -4,4 +4,4 @@
 [logical_test_1](https://github.com/Rathapol-Putharaksa/AS2/blob/master/logical_test.py)
 <br>
 <br>
-[logical_test_1](https://github.com/Rathapol-Putharaksa/AS2/blob/master/logical_test_2.py)
+[logical_test_2](https://github.com/Rathapol-Putharaksa/AS2/blob/master/logical_test_2.py)
