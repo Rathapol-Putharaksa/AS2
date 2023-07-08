@@ -71,7 +71,11 @@ class StudentSubjectsScoreAPIView(APIView):
         subjects_title = request.data.get("subject_title", None)
         score = request.data.get("score", None)
 
-        if score>100 or score<0 or not (isinstance(score, float) or isinstance(score, int) ):
+
+        if isinstance(score, str):
+            return Response("Score must be number, equal or greater than 0 and equal or less than 100.",status=status.HTTP_400_BAD_REQUEST)
+
+        elif score>100 or score<0  :
             return Response("Score must be number, equal or greater than 0 and equal or less than 100.",status=status.HTTP_400_BAD_REQUEST)
 
 
